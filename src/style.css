@@ -37,18 +37,26 @@ h2 {
     line-height: 1.6;
 }
 
-.grafico1, .grafico2 {
+.grafico1, .grafico2, .interativo{
     display: flex;
     justify-content: center;
     margin: 30px 0;
 }
 
 .grafico1 img {
-    width: 80%;
+    width: 60%;
     max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
+
+.interativo iframe{
+    width: 60%;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
 
 .texto3 {
     padding-bottom: 50px;
@@ -59,9 +67,8 @@ h2 {
 }
 
 .grafico2 iframe {
-    width: 80%;
+    width: 60%;
     height: 500px;
-    max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }

@@ -4,7 +4,6 @@ import pandas as pd
 
 df = pd.read_csv(r"C:\Users\julia\OneDrive\Documentos\Bigdata\src\dados_atividades.csv")
 
-
 df.rename(columns=lambda x: x.strip(), inplace=True)
 
 
